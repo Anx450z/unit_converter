@@ -1,5 +1,7 @@
-require 'unit_conversions'
+require 'conversions'
+require 'units'
 
 class Float
-  include Conversions
+  include MotionConversions
+  include MotionUnits
 end

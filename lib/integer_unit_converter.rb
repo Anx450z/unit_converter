@@ -1,5 +1,7 @@
-require 'unit_conversions'
+require 'motion_conversions'
+require 'motion_units'
 
 class Integer
-  include Conversions
+  include MotionConversions
+  include MotionUnits
 end

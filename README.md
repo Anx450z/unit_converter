@@ -4,12 +4,20 @@ This gem is used to converts units of measurements into different units of measu
 
 ## Example
 
-To convert 10.3 mph to kmph, use the command: 10.3.mph_to_kmph
+To convert 10.3 mph to kmph, use the command: `10.3.mph.to_kmph`
 
 ## Available methods
 
-- mph_to_kmph (miles per hour to kilometers per hour)
-- kmph_to_mph (kilometers per hour to miles per hour)
-- kmph_to_mps (kilometers per hour to meters per second)
-- fps_to_mps (foot per second to meters per second)
-- hrs_to_sec (hours to seconds)
+### Units of measurements
+
+- kmph (kilometers per hour)
+- mps (meter per second)
+- mph (miles per hour)
+- fps (foots per second)
+
+### Unit for conversion
+
+- to_kmph (converts to kilometers per hour)
+- to_mps (converts to meter per second)
+- to_mph (converts to miles per hour)
+- to_fps (converts to foot per second)
