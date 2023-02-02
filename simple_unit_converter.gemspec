@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'simple_unit_converter'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.licenses    = ['MIT']
   s.summary     = "converts units to different units of measurements"
   s.description = "This gem helps to convert units to different measurements unit. example kmph to mph, to use:- 10.2.mph_to_kmph"
