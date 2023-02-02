@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "This gem helps to convert units to different measurements unit. example kmph to mph, to use:- 10.2.mph_to_kmph"
   s.authors     = ["Ankur Chauhan"]
   s.email       = 'anx450z@gmail.com'
-  s.files       = ["lib/example.rb"]
+  s.files       = Dir["lib/**/*.rb"]
   s.metadata    = { "source_code_uri" => "https://github.com/Anx450z/unit_converter" }
 end
