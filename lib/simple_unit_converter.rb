@@ -1,3 +1,5 @@
+require 'integer_unit_converter'
+
 class Float
   def mph_to_kmph
     self*1.60934
