@@ -1,5 +1,5 @@
-require 'conversions'
-require 'units'
+require 'motion_conversions'
+require 'motion_units'
 
 class Float
   include MotionConversions
