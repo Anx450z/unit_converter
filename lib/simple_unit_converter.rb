@@ -1,2 +1,2 @@
-require 'converter/integer_unit_converter'
-require 'converter/float_unit_converter'
+require_relative 'converter/integer_unit_converter'
+require_relative 'converter/float_unit_converter'
