@@ -7,6 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Ankur Chauhan"]
   s.email       = 'anx450z@gmail.com'
   s.files       = ["lib/example.rb"]
-  s.homepage    = 'https://rubygems.org/gems/example'
-  s.metadata    = { "source_code_uri" => "https://github.com/example/example" }
+  s.metadata    = { "source_code_uri" => "https://github.com/Anx450z/unit_converter" }
 end
