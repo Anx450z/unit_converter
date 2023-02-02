@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'unit_converter'
+  s.name        = 'simple_unit_converter'
   s.version     = '0.0.1'
   s.licenses    = ['MIT']
   s.summary     = "converts units to different units of measurements"
