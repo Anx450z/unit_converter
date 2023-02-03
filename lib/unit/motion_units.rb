@@ -1,4 +1,4 @@
-module MotionUnits 
+module MotionUnit
   # Converts given speed to meters per second (SI unit)
   def mile_per_hour
     self*0.44704
@@ -10,5 +10,9 @@ module MotionUnits
 
   def foot_per_second
     self*0.3048
+  end
+
+  def knot
+    self*0.514444
   end
 end
