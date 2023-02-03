@@ -8,7 +8,7 @@ module MotionConversion
   end
   alias :to_kmph :to_kilometer_per_hour
   
-+ def to_mile_per_hour
+  def to_mile_per_hour
      self/(mile/hour)
   end
   alias :to_mph :to_mile_per_hour
