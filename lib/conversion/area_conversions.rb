@@ -22,7 +22,7 @@ module AreaConversion
   end
   alias :to_foot_square :to_square_foot
 
-  def square_yard
+  def to_square_yard
     self/(yard**2)
   end
   alias :to_yard_square :to_square_yard
