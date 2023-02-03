@@ -38,4 +38,12 @@ module CommonUnit
   def nanometer
     nano*meter
   end
+
+  def minute
+    60
+  end
+
+  def hour
+    60*minute
+  end
 end

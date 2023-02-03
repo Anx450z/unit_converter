@@ -1,16 +1,22 @@
+require_relative '../helper/common_units'
+
 module MotionUnit
+  include CommonUnit
   # Converts given speed to meters per second (SI unit)
   def mile_per_hour
-    self*0.44704
+    self*(mile/hour)
   end
+  alias :mile_per_hour :mph
 
   def kilometer_per_hour
-    self*0.277778
+    self*(kilometer/hour)
   end
+  alias :kilo_per_hour :kmph
 
   def foot_per_second
-    self*0.3048
+    self*(foot)
   end
+  alias :foot_per_second :fps
 
   def knot
     self*0.514444
