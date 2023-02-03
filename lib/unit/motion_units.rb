@@ -1,4 +1,5 @@
 module MotionUnits 
+  # Converts given speed to meters per second (SI unit)
   def mile_per_hour
     self*0.44704
   end
