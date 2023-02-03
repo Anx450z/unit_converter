@@ -4,12 +4,12 @@ module MotionConversion
    include CommonUnit
   # Converts meter per second to given units
   def to_kilometer_per_hour
-     self*(hour/kilometer)
+     self/(kilometer/hour)
   end
   alias :to_kmph :to_kilometer_per_hour
   
   def to_mile_per_hour
-     self*(hour/mile)
+     self/(mile/hour)
   end
   alias :to_mph :to_mile_per_hour
 
@@ -19,7 +19,7 @@ module MotionConversion
   alias :to_mps :to_meter_per_second
   
   def to_foot_per_second
-     self*(1/foot)
+     self/foot
   end
   alias :to_fps :to_foot_per_second
 

@@ -4,7 +4,7 @@ module CommonUnit
   include Prefix
   # Conversion of units into their SI units
   def inch
-    self*0.0254
+    0.0254
   end
 
   def foot
@@ -20,7 +20,7 @@ module CommonUnit
   end
 
   def meter
-    self
+    1
   end
 
   def kilometer
