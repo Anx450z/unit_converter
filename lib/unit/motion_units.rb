@@ -6,17 +6,17 @@ module MotionUnit
   def mile_per_hour
     self*(mile/hour)
   end
-  alias :mile_per_hour :mph
+  alias :mph :mile_per_hour
 
   def kilometer_per_hour
     self*(kilometer/hour)
   end
-  alias :kilo_per_hour :kmph
+  alias :kmph :kilo_per_hour
 
   def foot_per_second
     self*(foot)
   end
-  alias :foot_per_second :fps
+  alias :fps :foot_per_second
 
   def knot
     self*0.514444

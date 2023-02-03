@@ -11,32 +11,32 @@ module AreaUnit
   def square_centimeter
     self*(centimeter**2)
   end
-  alias :square_centimeter :centimeter_square
+  alias :centimeter_square :square_centimeter
 
   def square_inch
     self*(inch**2)
   end
-  alias :square_inch :inch_square
+  alias :inch_square :square_inch
 
   def square_foot
     self*(foot**2)
   end
-  alias :square_foot :foot_square
+  alias :foot_square :square_foot
 
   def square_yard
     self*(yard**2)
   end
-  alias :square_yard :yard_square
+  alias :yard_square :square_yard
 
   def square_mile
     self*(mile**2)
   end
-  alias :square_mile :mile_square
+  alias :mile_square :square_mile
 
   def square_kilometer
     self*(kilometer**2)
   end
-  alias :square_kilometer :kilometer_square
+  alias :kilometer_square :square_kilometer
 
   def hectare
     self*(100**2)

@@ -27,22 +27,22 @@ module Prefix
   def kilo
     1000
   end
-  alias :kilo :thousand
+  alias :thousand :kilo
 
   def mega
     1000*kilo
   end
-  alias :mega :million
+  alias :million :mega
 
   def giga
     1000*mega
   end
-  alias :giga :billion
+  alias :billion :giga
 
   def tera
     1000*giga
   end
-  alias :tera :trillion
+  alias :trillion :tera
 
   def peta
     1000*tera

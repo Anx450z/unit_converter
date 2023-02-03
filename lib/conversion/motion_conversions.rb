@@ -6,22 +6,22 @@ module MotionConversion
   def to_kilometer_per_hour
      self/(kilometer/hour)
   end
-  alias :to_kilometer_per_hour :to_kmph
+  alias :to_kmph :to_kilometer_per_hour
   
 + def to_mile_per_hour
      self/(mile/hour)
   end
-  alias :to_miles_per_hour :to_mph
+  alias :to_mph :to_miles_per_hour
 
   def to_meter_per_second
      self
   end
-  alias :to_meter_per_second :to_mps
+  alias :to_mps :to_meter_per_second
   
   def to_foot_per_second
      self/(foot)
   end
-  alias :to_foot_per_second :to_fps
+  alias :to_fps :to_foot_per_second
 
   def to_knot
       self*1.94384
