@@ -11,7 +11,7 @@ module MotionUnit
   def kilometer_per_hour
     self*(kilometer/hour)
   end
-  alias :kmph :kilo_per_hour
+  alias :kmph :kilometer_per_hour
 
   def foot_per_second
     self*(foot)
