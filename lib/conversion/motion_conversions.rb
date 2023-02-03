@@ -11,7 +11,7 @@ module MotionConversion
 + def to_mile_per_hour
      self/(mile/hour)
   end
-  alias :to_mph :to_miles_per_hour
+  alias :to_mph :to_mile_per_hour
 
   def to_meter_per_second
      self
