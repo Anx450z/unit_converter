@@ -12,11 +12,11 @@ module CommonUnit
   end
 
   def yard
-    foot*3
+    foot*3.0
   end
 
   def mile
-    yard*1760
+    yard*1760.0
   end
 
   def meter
@@ -40,7 +40,7 @@ module CommonUnit
   end
 
   def minute
-    60
+    60.0
   end
 
   def hour

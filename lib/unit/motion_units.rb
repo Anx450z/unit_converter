@@ -18,6 +18,11 @@ module MotionUnit
   end
   alias :fps :foot_per_second
 
+  def meter_per_second
+    self
+  end
+  alias :mps :meter_per_second
+
   def knot
     self*0.514444
   end

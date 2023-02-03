@@ -25,7 +25,7 @@ module Prefix
   end
 
   def kilo
-    1000
+    1000.0
   end
   alias :thousand :kilo
 
