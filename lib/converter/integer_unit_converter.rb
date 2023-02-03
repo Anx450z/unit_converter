@@ -22,18 +22,18 @@ class Integer
   include MotionUnit
   include AreaConversion
   include AreaUnit
-  include ByteConversion
-  include ByteUnit
-  include EnergyConversion
-  include EnergyUnit
-  include LengthConversion
-  include LengthUnit
-  include MassConversion
-  include MassUnit
-  include PowerConversion
-  include PowerUnit
-  include TemperatureConversion
-  include TemperatureUnit
-  include VolumeConversion
-  include VolumeUnit
+  # include ByteConversion
+  # include ByteUnit
+  # include EnergyConversion
+  # include EnergyUnit
+  # include LengthConversion
+  # include LengthUnit
+  # include MassConversion
+  # include MassUnit
+  # include PowerConversion
+  # include PowerUnit
+  # include TemperatureConversion
+  # include TemperatureUnit
+  # include VolumeConversion
+  # include VolumeUnit
 end
