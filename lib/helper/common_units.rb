@@ -5,47 +5,47 @@ require_relative 'prefixes'
 module CommonUnit
   include Prefix
   # Conversion of units into their SI units
-  def inch
+  def unit_inch
     0.0254
   end
 
-  def foot
-    inch * 12
+  def unit_foot
+    unit_inch * 12
   end
 
-  def yard
-    foot * 3.0
+  def unit_yard
+    unit_foot * 3.0
   end
 
-  def mile
-    yard * 1760.0
+  def unit_mile
+    unit_yard * 1760.0
   end
 
-  def meter
+  def unit_meter
     1
   end
 
-  def kilometer
-    kilo * meter
+  def unit_kilometer
+    kilo * unit_meter
   end
 
-  def centimeter
-    centi * meter
+  def unit_centimeter
+    centi * unit_meter
   end
 
-  def millimeter
-    milli * meter
+  def unit_millimeter
+    milli * unit_meter
   end
 
-  def nanometer
-    nano * meter
+  def unit_nanometer
+    nano * unit_meter
   end
 
-  def minute
+  def unit_minute
     60.0
   end
 
-  def hour
-    60 * minute
+  def unit_hour
+    60 * unit_minute
   end
 end

@@ -28,8 +28,8 @@ class Integer
   # include ByteUnit
   # include EnergyConversion
   # include EnergyUnit
-  # include LengthConversion
-  # include LengthUnit
+  include LengthConversion
+  include LengthUnit
   # include MassConversion
   # include MassUnit
   # include PowerConversion

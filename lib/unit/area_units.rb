@@ -7,36 +7,36 @@ module AreaUnit
   # converts given area into meter cube (SI units)
 
   def acre
-    self * (43_560 * foot)
+    self * (43_560 * unit_foot)
   end
 
   def square_centimeter
-    self * (centimeter**2)
+    self * (unit_centimeter**2)
   end
   alias centimeter_square square_centimeter
 
   def square_inch
-    self * (inch**2)
+    self * (unit_inch**2)
   end
   alias inch_square square_inch
 
   def square_foot
-    self * (foot**2)
+    self * (unit_foot**2)
   end
   alias foot_square square_foot
 
   def square_yard
-    self * (yard**2)
+    self * (unit_yard**2)
   end
   alias yard_square square_yard
 
   def square_mile
-    self * (mile**2)
+    self * (unit_mile**2)
   end
   alias mile_square square_mile
 
   def square_kilometer
-    self * (kilometer**2)
+    self * (unit_kilometer**2)
   end
   alias kilometer_square square_kilometer
 
