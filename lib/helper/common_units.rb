@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'prefixes'
 
 module CommonUnit
@@ -8,15 +10,15 @@ module CommonUnit
   end
 
   def foot
-    inch*12
+    inch * 12
   end
 
   def yard
-    foot*3.0
+    foot * 3.0
   end
 
   def mile
-    yard*1760.0
+    yard * 1760.0
   end
 
   def meter
@@ -24,19 +26,19 @@ module CommonUnit
   end
 
   def kilometer
-    kilo*meter
+    kilo * meter
   end
 
   def centimeter
-    centi*meter
+    centi * meter
   end
 
   def millimeter
-    milli*meter
+    milli * meter
   end
 
   def nanometer
-    nano*meter
+    nano * meter
   end
 
   def minute
@@ -44,6 +46,6 @@ module CommonUnit
   end
 
   def hour
-    60*minute
+    60 * minute
   end
 end

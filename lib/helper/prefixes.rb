@@ -1,50 +1,52 @@
+# frozen_string_literal: true
+
 module Prefix
   # Contains prefixes of units (SI units)
   def femto
-    pico/1000
+    pico / 1000
   end
-  
+
   def pico
-    nano/1000
+    nano / 1000
   end
 
   def nano
-    micro/1000
+    micro / 1000
   end
 
   def micro
-    milli/1000
+    milli / 1000
   end
 
   def milli
-    1/kilo
+    1 / kilo
   end
 
   def centi
-    10*milli
+    10 * milli
   end
 
   def kilo
     1000.0
   end
-  alias :thousand :kilo
+  alias thousand kilo
 
   def mega
-    1000*kilo
+    1000 * kilo
   end
-  alias :million :mega
+  alias million mega
 
   def giga
-    1000*mega
+    1000 * mega
   end
-  alias :billion :giga
+  alias billion giga
 
   def tera
-    1000*giga
+    1000 * giga
   end
-  alias :trillion :tera
+  alias trillion tera
 
   def peta
-    1000*tera
+    1000 * tera
   end
 end
